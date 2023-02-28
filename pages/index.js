@@ -5,8 +5,8 @@ import { useEffect, useRef, useState } from 'react';
 import axios from 'axios';
 
 export default function Home() {
-
-  const apiKey = "f1b20a33d2a29719eaddac01e73e3a51";
+  const apiKey = process.env.Next_PUBLIC_API_KEY;
+  // const apiKey = "f1b20a33d2a29719eaddac01e73e3a51";
   const location = "vancouver";
   const units = "metric";
   const url = `https://api.openweathermap.org/data/2.5/forecast?q=${location}&units=${units}&appid=${apiKey}`;
