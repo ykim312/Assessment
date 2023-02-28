@@ -81,7 +81,7 @@ export default function Home() {
         var day = days[now.getDay()]
 
         return (
-          <div key={index}>
+          <div key={index} className={styles.weatherContent}>
             <Image
               src={icon}
               alt={icon}

@@ -48,6 +48,15 @@
   max-width: 100%;
 }
 
+.weatherContent {
+  border-radius: 26px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 16px;
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
