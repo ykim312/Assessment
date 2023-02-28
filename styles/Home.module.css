@@ -291,5 +291,11 @@
 .temp {
   font-size: 2rem;
   padding-bottom: 1rem;
+  color: rgb(52, 52, 128);
+}
+
+.weatherState {
+  font-size: 1.4rem;
+  padding-bottom: 0.4em;
 }
 

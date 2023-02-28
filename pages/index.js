@@ -91,11 +91,11 @@ export default function Home() {
             />
             <div className={styles.texts} >
               <div className={styles.temp}>{weather.main.temp.toFixed(1)}°C</div>
+              <div className={styles.weatherState}>{weather.weather[0].main}</div>
               <p className={styles.day}>
                 {day}<br/>{month} {weather.dt_txt.substr(8,2)}, {weather.dt_txt.substr(0,4)}
               </p>
               
-              <div>{weather.weather[0].main}</div>
             </div>
           </div>
         )
